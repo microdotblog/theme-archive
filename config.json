@@ -8,7 +8,7 @@
     "baseURL": "[SCHEME]://[HOSTNAME]/",
 	"outputFormats": {
 		"JSON": {
-			"baseName": "index"
+			"baseName": "feed"
 		}
 	},
 	"outputs": {
