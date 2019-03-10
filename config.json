@@ -1,0 +1,40 @@
+{
+    "title": "[TITLE]",
+    "author": {
+    	"name": "[TITLE]",
+    	"avatar": "https://micro.blog/[USERNAME]/avatar.jpg",
+    	"username": "[USERNAME]"
+    },
+    "baseURL": "[SCHEME]://[HOSTNAME]/",
+	"outputFormats": {
+		"JSON": {
+			"baseName": "index"
+		}
+	},
+	"outputs": {
+		"home": [ "HTML", "JSON" ],
+		"section": [],
+		"taxonomy": []
+	},
+	"taxonomies": {
+		"category": "categories"
+	},	
+	"rssLimit": 25,
+	"uglyURLs": false,
+	"blackfriday": {
+		"fractions": false
+	},
+	"languageCode": "[LANGUAGE]",
+	"params": {
+		"description": "Follow <a href=\"https://micro.blog/[USERNAME]\">@[USERNAME] on Micro.blog</a>.",
+		"itunes_description": "[ITUNES_DESCRIPTION]",
+		"itunes_category": "[ITUNES_CATEGORY]",
+		"itunes_subcategory": "[ITUNES_SUBCATEGORY]",
+		"itunes_author": "[ITUNES_AUTHOR]",
+		"itunes_email": "[ITUNES_EMAIL]",
+		"twitter_username": "[TWITTER_USERNAME]",
+		"github_username": "[GITHUB_USERNAME]",
+		"instagram_username": "[INSTAGRAM_USERNAME]",
+		"site_id": "[SITE_ID]"
+	}
+}

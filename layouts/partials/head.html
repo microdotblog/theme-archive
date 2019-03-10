@@ -1,0 +1,9 @@
+<head>
+
+  <title>
+      {{ block "title" . }}
+      {{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Site.Title }} - {{ .Title }}{{ end }}
+      {{ end }}
+  </title>
+
+</head>
